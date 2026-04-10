@@ -3,48 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUXE PLOMBIER — L'excellence au service de votre urgence</title>
+    <title>LUXE PLOMBIER — L'eau domptée.</title>
+    <meta name="description" content="Luxe Plombier - Dépannage et installation haut de gamme. Intervention 24/7. Zéro fuite, zéro stress.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&family=Outfit:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="fixed-nav">
-        <div class="logo">LUXE PLOMBIER</div>
-        <div class="emergency-tag">URGENCE 24/7</div>
-        <button class="cta-btn-nav">01 23 45 67 89</button>
+
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <div class="nav-logo">LUXE PLOMBIER</div>
+        <div class="nav-badge">URGENCE 24/7</div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <span class="eyebrow">DÉPANNAGE & INSTALLATION HAUT DE GAMME</span>
-            <h1>L'EAU DOMPTÉE.</h1>
-            <p>Zéro fuite. Zéro stress. Une intervention radicale pour des intérieurs d'exception.</p>
-            <div class="hero-actions">
-                <button class="primary-btn">APPEL D'URGENCE</button>
-                <button class="secondary-btn">NOS SERVICES</button>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-left">
+            <span class="hero-eyebrow">DÉPANNAGE &amp; INSTALLATION HAUT DE GAMME</span>
+            <h1 class="hero-title">L'EAU<br><span class="accent">DOMPTÉE.</span></h1>
+            <p class="hero-sub">ZÉRO FUITE. ZÉRO STRESS. UNE INTERVENTION RADICALE POUR DES INTÉRIEURS D'EXCEPTION.</p>
+            <div class="hero-btns">
+                <a href="tel:+33123456789" class="btn-primary">APPEL D'URGENCE ☎</a>
+                <a href="#services" class="btn-outline">NOS SERVICES</a>
             </div>
         </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2000&auto=format&fit=crop" alt="Plomberie de luxe">
+        <div class="hero-right">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2000&auto=format&fit=crop" alt="Salle de bain luxe" class="hero-img">
         </div>
-    </header>
+    </section>
 
-    <section class="philosophie">
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
         <div class="container">
-            <h2>VRAI DESIGN.<br>VRAI TRAVAIL.</h2>
-            <div class="grid">
+            <h2 class="section-title">VRAI DESIGN.<br>VRAI TRAVAIL.</h2>
+            <div class="cards">
                 <div class="card">
-                    <span class="num">01</span>
+                    <span class="card-num">01</span>
+                    <div class="card-icon">🛡</div>
                     <h3>PRÉCISION</h3>
                     <p>Chaque raccord est une œuvre d'art. Nous ne réparons pas, nous restaurons la perfection.</p>
                 </div>
                 <div class="card">
-                    <span class="num">02</span>
+                    <span class="card-num">02</span>
+                    <div class="card-icon">✓</div>
                     <h3>PROPRETÉ</h3>
                     <p>Une intervention chirurgicale. Votre espace reste impeccable, comme si nous n'étions jamais venus.</p>
                 </div>
                 <div class="card">
-                    <span class="num">03</span>
+                    <span class="card-num">03</span>
+                    <div class="card-icon">⏱</div>
                     <h3>AGILITÉ</h3>
                     <p>Intervention sous 30 minutes. Parce que votre temps est aussi précieux que votre confort.</p>
                 </div>
@@ -52,16 +61,18 @@
         </div>
     </section>
 
-    <section class="cta-section">
-        <div class="cta-box">
-            <h2>PRÊT À RÉGLER LE PROBLÈME ?</h2>
-            <button class="mega-btn">CONTACTEZ L'EXPERT</button>
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>PRÊT À RÉGLER<br>LE PROBLÈME ?</h2>
+            <a href="tel:+33123456789" class="btn-mega">CONTACTEZ L'EXPERT →</a>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-left">LUXE PLOMBIER — SIGNÉ VRAI.</div>
-        <div class="footer-right">©2026 TOUS DROITS RÉSERVÉS.</div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <span>LUXE PLOMBIER — SIGNÉ VRAI.</span>
+        <span>©2026 LUXE PLOMBIER. TOUS DROITS RÉSERVÉS.</span>
     </footer>
 
     <script src="script.js"></script>
